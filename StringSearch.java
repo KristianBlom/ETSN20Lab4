@@ -17,6 +17,7 @@ public class StringSearch {
                     System.out.println(line);
                 }
             }
+            scanner.close();
         } catch (FileNotFoundException e) {
             System.out.println("File not found.");
         }
